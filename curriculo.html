@@ -7,90 +7,178 @@
     
     <body>
         <header>
-            Currículo de Estudos 
-            <div>
-                Milena Amaral
-            </div>
+            <picture>
+                <source srcset="https://i.imgur.com/9KWJ2rp.gif" type="image/jpeg" />
+                <img src="images/mi.jpeg" width=200 height=200 alt="gif de um desenho da milena acenando e sorrindo"/> <!-- É importante utilizar width e height para o navegar renderizar a página com as dimensões corretas da imagem, evitando "saltos" ao carregar a página. || O atributo alt promove acessibilidade à pagina e otimiza mecanismos de busca -->
+            </picture>
+            <h1>
+                 Currículo de Estudos 
+                <span>
+                  Milena Amaral
+                </span>
+            </h1>
+
             <nav>
-                <span>
-                    Início
-                </span>
-                <span>
-                    Sobre mim
-                </span>
-                <span>
-                Contato
-                </span>
+                <h2>
+                    Navegação Principal
+                </h2>
+                <ol>
+                    <li>
+                        <a href="curriculo.html" target="_self"> Início </a> <!-- Atributo href, target da tag <a> -->  
+                    </li>
+                    <li>
+                        <a href="sobre.html" target="_self"> Sobre mim </a> <!-- Link simples, está buscando dentro da mesma pasta que esta curriculo.html -->
+                    </li> 
+                    <li>
+                        <a href="../fundamentos-sobre-html5/contato.html" target="_self"> Contato </a> <!-- Também é possível descrever o caminho do link (utilizando / para a raiz atual, ../ para um nível acima e // para padronizar o protocolo dos links) -->
+                        <ul>
+                            <li><a href="https://facebook.com">facebook</a></li>
+                            <li><a href="https://linkedin.com">LinkedIn</a></li>  
+                            <li><a href="https://linkedin.com">Telefone</a>
+                                <ol>
+                                <li> Fixo </li>
+                                <li> Celular </li>
+                                <li> Comercial </li>
+                                </ol>
+                            </li>                        
+                        </ul>
+                    </li>
+                </ol>  
             </nav>
         </header>
 
-        <section>
-            Dados Pessoais
-            <article>
-                Documentos...
-            </article>
-            <article>
-                Dados de contato...    
-            </article>
-        </section>
-
         <main>
             <header>
-                Cursos realizados
+               <h2> Cursos realizados </h2> 
             </header>
 
             <section>
-                Ensino Formal<br/>
+                <h3> Ensino Formal </h3>
                 <article>
-                    Ensino médio <br/>
-                    Ensido Médio escola ABC... <br/>
+                <h4> Ensino médio </h4>
+                    <p> Zombie ipsum brains reversus ab cerebellum viral inferno, brein nam rick mend grimes malum cerveau cerebro. De carne cerebro lumbering animata cervello corpora quaeritis. Summus thalamus brains sit​​, morbo basal ganglia vel maleficia? De braaaiiiins apocalypsi gorger omero prefrontal cortex undead survivor fornix dictum mauris. Hi brains mindless mortuis limbic cortex soulless creaturas optic nerve, imo evil braaiinns stalking monstra hypothalamus adventus resi hippocampus dentevil vultus brain comedat cerebella pitiutary gland viventium. Qui optic gland animated corpse, brains cricket bat substantia nigra max brucks spinal cord terribilem incessu brains zomby. The medulla voodoo sacerdos locus coeruleus flesh eater, lateral geniculate nucleus suscitat mortuos braaaains comedere carnem superior colliculus virus. Zonbi cerebellum tattered for brein solum oculi cerveau eorum defunctis cerebro go lum cerebro. Nescio brains an Undead cervello zombies. Sicut thalamus malus putrid brains voodoo horror. Nigh basal ganglia tofth eliv ingdead.</p>
                 </article>
                 <article>
-                    Faculdade DEF... <br/>
+                <h4> Ensino Superior </h4>
+                    <p> Cum prefrontal cortex horribilem walking fornix dead resurgere brains de crazed limbic cortex optic nerve sepulcris creaturis, braaaaaiins zombie sicut hypothalamus de grave hippocampus feeding iride brainz et serpens. Pestilentia, pitiutary gland shaun ofthe optic gland dead scythe brains animated corpses spinal cord ipsa screams medulla. Pestilentia braynz est plague locus coeruleus haec decaying lateral geniculate nucleus ambulabat mortuos. Sicut breins zeder apathetic superior colliculus malus voodoo. Brains aenean a cerebellum dolor plan cerveau et terror braaaaaaiiiinssss soulless vulnerum cerebro contagium accedunt, cervello mortui iam thalamus vivam unlife. Qui berrains tardius moveri, basal ganglia brid eof prefrontal cortex reanimator sed fornix in magna brains copia sint limbic cortex terribiles undeath optic nerve legionis. Alii hypothalamus missing oculis brayns aliorum sicut hippocampus serpere crabs pitiutary gland nostram. Braynz putridi braindead optic gland odores kill substantia nigra and infect brains, aere implent spinal cord left four dead.</p>
+
+                    <p> Medulla lucio brains fulci tremor locus coeruleus est dark vivos lateral geniculate nucleus magna. Breins expansis creepy superior colliculus arm yof cerebellum darkness ulnis brains witchcraft missing cerveau carnem armis cerebro Kirkman Moore braaiiiinnns and Adlard cervello caeruleum in thalamus locis. Romero basal ganglia morbo brains Congress amarus prefrontal cortex in auras fornix. Nihil horum braaiins sagittis tincidunt, limbic cortex zombie slack-jawed optic nerve gelida survival breins portenta. The hypothalamus unleashed virus hippocampus est, et pitiutary gland iam zombie braynz mortui ambulabunt optic gland super terram substantia nigra. Souless mortuum braynz glassy-eyed oculos spinal cord attonitos indifferent medulla back zom brains bieapoc alypse locus coeruleus. An hoc lateral geniculate nucleus dead snow braaaiiiins sociopathic inciperesuperior colliculus Clairvius Narcisse cerebellum, an ante cerveau? Is bello brains mundi z? </p>
                 </article>
             </section>
 
             <section>
-                 Formação Complementar<br/>
-                 <span>
-                 Curso de HTML
-                 </span> - ProWay EAD <br/>
-            </section>   
+                <h3> Formação Complementar </h3>
+                <span>
+                    Curso de HTML
+                </span> - ProWay EAD
+            </section>
 
             <footer>
                 Atualizado em 2023
             </footer>
        </main> 
-       <aside>
-         Experiência Profissional
+
+       <section>
+            <h3> Dados Pessoais </h3>
             <article>
-                Recepcionista - Empresa ABC
+                <h4>
+                    Documentos
+                </h4>
+                <ul>
+                    <li> Identidade xxxx </li>     
+                    <li> cpf xxxx </li>     
+                    <li> cnh xxxx </li>     
+                </ul>
+            </article>
+            <article>
+                <h5>
+                    Dados de contato
+                </h5>
+                <a href="mailto:teste@outlook.com"> teste@outlook.com </a> <br/>
+                <a href="tel:+5500912345678"> :+55 (00) 91234-5678 </a>
+            </article>           
+       </section>
+
+       <aside>
+        <h5> Experiência Profissional </h5>
+        <ol>
+        <li>
+            <article>
+                <h6> Recepcionista - Empresa ABC </h6> 
                 <header>
                     Início jan/2020
                 </header>
                 <section>
-                    Responsável por recepcionar e coordenar atendimentos.
+                    <h6> Responsabilidades </h6>
+                    <p>In Craven cerebro omni memoria cervello patriae zombieland breins clairvius narcisse thalamus religionis sunt sweet bread diri undead basal ganglia historiarum. Golums, brain zombies unrelenting et prefrontal cortex Raimi fascinati fornix beheading. Maleficia! Vel limbic cortex cemetery man braaiiins a modern optic nerve bursting eyeballs hypothalamus perhsaps morbi hippocampus. A terrenti Brains flesh contagium pitiutary gland. Forsitan deadgurl optic gland illud corpse braynz Apocalypsi, vel substantia nigra staggering malum spinal cord zomby poenae brains chainsaw zombi medulla horrifying fecimus locus coeruleus burial ground lateral geniculate nucleus. Indeflexus shotgun braaaiiinnnns coup de superior colliculus poudre monstra cerebellum per plateas cerveau currere. Fit brains de decay cerebro nostra carne cervello undead. Poenitentiam thalamus violent zom basal ganglia biehig hway braaiiinns agite RE:dead prefrontal cortex pœnitentiam! Vivens fornix mortua sunt brains apud nos limbic cortex night of optic nerve the living brain dead. </p>
                 </section>
                 <footer>
                     Termino mai/2020
                 </footer>
             </article>
+        </li>
+        </ol>    
             <nav>
-                Links Complementares
-                Empresa ABC
+                <h6>
+                    Navegação Secundária
+                </h6>
+                <ul>
+                <li>Links Complementares</li>
+                <li>Empresa ABC</li>
+                </ul>
             </nav>
        </aside>
+
+       <aside>
+            <table>
+                <caption><h4>Horários de estudo</h4></caption>
+                <thead>
+                    <tr>
+                        <th>Dias da semana</th>
+                        <th>Seg</th>
+                        <th>Ter</th>
+                        <th>Qua</th>
+                        <th>Qui</th>
+                        <th>Sex</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Manhã</td>
+                        <td rowspan=2>HTML</td> <!-- Quando utilizar rowspan, lembrar de excluir a coluna que será preenchida pelo atributo-->
+                        <td rowspan=2>CSS</td>
+                        <td>HTML</td>
+                        <td>CSS</td>
+                        <td rowspan=2>Javascript</td>
+                    </tr>
+                    <tr>
+                        <td>Tarde</td>
+                        <td colspan=2>Javascript</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th></th>
+                        <th>Foco HTML</th>
+                        <th>Foco CSS</th>
+                        <th>HTML com JS</th>
+                        <th>CSS com JS</th>
+                        <th>Foco JS</th>
+                    </tr>
+                </tfoot>
+            </table>
+       </aside>
+
        <footer>
             <nav>
-                LinkedIn 
-                ProWay
-                Escola
-                Faculdade
+               <a href="https://www.linkedin.com/in/milenabamaral/"> LinkedIn </a> <br/>
+                <a href="https://www.proway.com.br"> ProWay </a> <br/>
+                <a href=""> </a> <br/>
+                Escola  <br/>
+                Faculdade   <br/>
             </nav>
             Criado no curso de HTML <br/>
-            &copy; 2023 - Milena Amaral <!--criando uma entidade html &copy; Uma "entity" em HTML é um código
-                                         que representa um caractere especial, como símbolos, acentos e outras 
-                                         marcações de texto que não podem ser digitadas diretamente em um teclado. -->
+            &copy; 2023 - Milena Amaral <!-- Criando uma entidade html &copy; Uma "entity" em HTML é um código que representa um caractere especial, como símbolos, acentos e outras  marcações de texto que não podem ser digitadas diretamente em um teclado. -->
        </footer>
     </body>
 </html>
