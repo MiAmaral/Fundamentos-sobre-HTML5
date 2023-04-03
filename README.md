@@ -38,7 +38,7 @@
 
 📌 Link:
 
-   • < a >:
+   • < a > : É usada para criar um link ou hiperlink em uma página da web. Ela permite que você crie um link para outra página da web, para um arquivo em seu próprio site ou para uma seção diferente da mesma página.
 
 📌 Lista:
    
