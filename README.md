@@ -16,7 +16,7 @@
 
    • < article > : É uma tag usada para identificar um conteúdo independente e autônomo em uma página HTML. Pode ser uma postagem de blog, notícia, artigo ou qualquer outro conteúdo que possa ser publicado ou distribuído separadamente. De uma maneira simples(para iniciantes), "tudo que for repetitivo e tiver contexto/significado próprio, utiliza-se article."
 
-   • < nav > : Essa rag identifica uma seção de navegação de uma página HTML. Ele geralmente contém links para outras páginas do site ou seções da página atual. Elementos dentro dessa tag não são reconhecidos pelos mecanismos de busca do google.
+   • < nav > : Essa tag identifica uma seção de navegação de uma página HTML. Ele geralmente contém links para outras páginas do site ou seções da página atual. Elementos dentro dessa tag não são reconhecidos pelos mecanismos de busca do google.
 
    • < aside > : Identifica o conteúdo relacionado, mas não essencial, a uma página HTML. Ele geralmente contém informações adicionais ou links para outras páginas relacionadas. Muito utilizado para anexar propagandas ao site. 
 
